@@ -6,7 +6,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 export default function Hero () {
   return (
     <div className="w-full h-full dark:bg-blue-600 items-center grid-cols-2 mx-auto overflow-x-hidden lg:grid md:py-8 lg:py-20 lg:px-8" data-aos="fade-right" data-aos-duration="800" >
-      <div className="lg:px-24 md:px-24 sm:pl-2 py-8 ">
+      <div className="lg:px-24 md:px-24 sm:pl-2 py-8 p-4 sm:px-8">
         <h1 className='text-4xl py-4 font-extrabold text-left text-blue-800 dark:text-white'>Dapatkan NIDI & SLO</h1>
         <p className="text-xl text-gray-500 md:py-6 py-6 dark:text-white">Tanpa ribet, proses cepat dan mudah, hanya dalam beberapa menit.</p>
         <div className="py-2">
