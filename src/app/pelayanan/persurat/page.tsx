@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { CgDanger } from "react-icons/cg";
 import Content from "./content";
-import Form from "./form";
 import Permohonan from "./permohonan";
 
 export default function Persurat () {
@@ -25,7 +24,6 @@ export default function Persurat () {
               <li className="ml-6">Kami tidak menerima permohonan jika instalasi listrik (Sekering, Lampu, Sakelar, dll) dalam rumah belum ada / bangunan belum ada. Terima Kasih.</li>
             </ol>
           </div>
-          {/* <Form /> */}
           <Permohonan/>
         </div>
       </div>
