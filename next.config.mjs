@@ -1,10 +1,13 @@
+/** @type {import('next').NextConfig} */
+// const nextConfig = {};
 
-// /** @type {import('next').NextConfig} */
 const nextConfig = {
-    publicRuntimeConfig: {
-      domain: 'adytia-tehnik.com',
-    },
+    reactStrictMode: true,
 };
-  
+
+
+// module.exports ={
+//     port: 3000;,
+// }
+
 export default nextConfig;
-  
