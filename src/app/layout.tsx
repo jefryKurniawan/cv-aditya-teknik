@@ -19,9 +19,6 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="id">
-      <head>
-        <meta name="google-site-verification" content="f50eP-seUyjSzgTKXHgS2UEBfbBh_98hXzf5l4TFErQ" />
-      </head>
       <body>
         <Navbar/>
         <main className="flex-1">{children}</main>
