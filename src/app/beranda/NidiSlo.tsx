@@ -3,7 +3,7 @@ import { IoIosWarning } from "react-icons/io";
 
 export default function NidiSlo () {
     return (
-      <section className="md:p-6 lg:py-10 py-20">
+      <section className="md:p-6 lg:py-10 py-20 dark:bg-blue-300">
         <h1 className="text-3xl font-bold mb-4 text-center">NIDI & SLO</h1>
         <div className="flex flex-wrap justify-center items-center">
             {/* nidi */}
