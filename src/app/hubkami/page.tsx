@@ -28,7 +28,7 @@ export default function Hubkami () {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-10 lg:pl-6 " >
 
               {/* maps */}
-              <div className="py-4 sm:text-center sm:flex justify-center md:flex p-4 sm:max-w-md">
+              <div className="py-4 sm:text-center sm:flex justify-center md:flex px-4 sm:px-8">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165.62290541720657!2d112.63262897288726!3d-7.942534942022509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629a0eb90bad9%3A0xf66ff8d8a482f431!2sCV.%20Adytia%20tehnik%20Kota%20Malang!5e1!3m2!1sid!2sid!4v1731086646064!5m2!1sid!2sid" width="400" height="300" className="border:0;" allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
 
@@ -62,10 +62,10 @@ export default function Hubkami () {
                   <div className="border-t-4 dark:border-gray-200 border-blue-700 px-6 py-4">
                     <h3 className="text-lg font-semibold text-blue-900 dark:text-white">Kontak :</h3>
                     <div className="text-center pt-2">
-                      <Link href="https://www.w3schools.com/" className="inline-block mx-2 text-4xl text-red-500 dark:text-white">
+                      <Link href="mailto:buchorimakmur8@gmail.com" className="inline-block mx-2 text-4xl text-red-500 dark:text-white">
                         <MdEmail />
                       </Link>
-                      <Link href="https://www.w3schools.com/" className="inline-block mx-2 text-4xl text-green-500 dark:text-white">
+                      <Link href="https://wa.me/+6281456123367" className="inline-block mx-2 text-4xl text-green-500 dark:text-white">
                         <FaWhatsappSquare />
                       </Link>
                     </div>

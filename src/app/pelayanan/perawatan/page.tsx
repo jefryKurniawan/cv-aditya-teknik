@@ -9,7 +9,7 @@ export default function Perawatan () {
     <section className="p-2 mx-auto py-20 bg-blue-300">
       <p className="text-justify mx-10 indent-10 text-lg"> CV Aditya Teknik, penyedia jasa perawatan dan maintenance listrik yang berpusat di Malang, melayani seluruh wilayah Jawa Timur dan daerah perbatasan. Dengan tim teknisi listrik profesional dan berpengalaman, kami memastikan instalasi listrik anda aman, efisien, dan sesuai standar. Layanan perawatan rutin kami membantu mencegah kerusakan, meningkatkan usia peralatan, dan menjaga stabilitas sistem kelistrikan rumah maupun bisnis anda. </p>
     </section>
-    <section className="p-4 sm:px-8 py-20 text-justify lg:mx-36 border-4 border-red-400">
+    <section className="p-4 sm:px-8 py-20 text-justify lg:mx-36 ">
       <h2 className="text-2xl font-semibold py-6 text-blue-950 text-center dark:text-white">Fungsi Maintenance Listrik</h2>
       <ul className="list-disc list-inside md:pl-8 lg:pl-14 dark:text-white text-lg">
         <li className="pb-2">Untuk memperpanjang usia peralatan listrik</li>

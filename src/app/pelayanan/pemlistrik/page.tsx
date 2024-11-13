@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Pemlistrik () {
   return (
     <div className="lg:w-full mx-auto lg:py-10 dark:bg-blue-500">
-      <h1 className="text-3xl font-bold mb-4 text-center text-blue-900 pt-8 pb-2 dark:text-white">Pemasangan Listrik</h1>
-      <Image src="/assets/pemasangan.svg"alt="Pemasangan Listrik" width={400}height={400} className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-1/3 lg:h-1/3 mx-auto sm:w-1/6 lg:py-4 pb-6 md:w-1/3"/>
+      <h1 className="text-3xl font-bold mb-4 text-center text-blue-900 pt-8 pb-0 dark:text-white">Pemasangan Listrik</h1>
+      <Image src="/assets/pemasangan.svg"alt="Pemasangan Listrik" width={200}height={200} className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-1/4 mx-auto sm:w-1/6 md:w-1/3 "/>
       <section className="p-4 md:py-16 sm:px-8 py-12 lg:p-10 lg:py-20 bg-blue-800 text-justify">
         <h3 className="text-2xl font-semibold text-white">Pemasangan instalasi Listrik Baru</h3>
         <p className="py-6 pl-2 text-lg text-white indent-8"> Pemasangan instalasi listrik baru adalah langkah penting yang harus dilakukan dengan hati-hati untuk menghindari risiko korsleting dan kebakaran. Listrik adalah kebutuhan dasar yang mendukung aktivitas sehari-hari, mulai dari penerangan hingga pengisian daya perangkat elektronik.</p>
