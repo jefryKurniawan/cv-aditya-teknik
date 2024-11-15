@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { IoIosWarning } from "react-icons/io";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function NidiSlo () {
     return (
-      <section className="md:p-6 lg:py-10 py-20 dark:bg-blue-300">
-        <h1 className="text-3xl font-bold mb-4 text-center">NIDI & SLO</h1>
-        <div className="flex flex-wrap justify-center items-center">
+      <section className="md:p-6 lg:py-10 py-20 dark:bg-blue-600">
+        <h1 className="text-3xl font-bold mb-4 text-center dark:text-white">NIDI & SLO</h1>
+        <div className="flex flex-wrap justify-center items-center dark:text-white">
             {/* nidi */}
             <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 p-4 md:p-6 lg:p-8 ">
               <h2 className="text-2xl font-bold mb-4 lg:align-top text-center">
@@ -36,8 +37,8 @@ export default function NidiSlo () {
               
             </div>
             <div className="py-2">
-              <button className="relative border-2 border-gray-800 bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-blue-600 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100 sm:before:w-full sm:before:h-full">
-                Daftar NIDI SLO Sekarang
+              <button className="border-2 border-gray-800 bg-blue-500 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">
+                Daftar NIDI SLO Sekarang <MdKeyboardArrowRight size="1.5rem" className="inline-block vertical-align:middle"/>
               </button>
             </div>
 

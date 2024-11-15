@@ -17,7 +17,7 @@ function Card1({ heading, description, icon, className, button}: CardProps) {
       <div className="space-y-2">
         <h3 className="text-2xl font-bold text-white">{heading}</h3>
         <p className="leading-8 font-semibold text-white">{description}</p>
-        <button className="relative border-2 border-gray-800 bg-transparent px-5 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-600 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">{button}</button>
+        <button className="relative border-2 border-gray-800 bg-blue-600 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">{button}</button>
       </div>
     </div>
   )
@@ -38,7 +38,6 @@ export default function Layanan () {
             <Link href="/pelayanan/persurat">
                 Daftar Sekarang <RiLoginCircleFill size="1.5rem" className="inline-block vertical-align:middle"/>
             </Link>
-              
           }
         />
 

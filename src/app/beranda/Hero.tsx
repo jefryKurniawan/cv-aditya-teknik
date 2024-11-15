@@ -10,7 +10,7 @@ export default function Hero () {
         <h1 className='text-4xl py-4 font-extrabold text-left text-blue-800 dark:text-white'>Dapatkan NIDI & SLO</h1>
         <p className="text-xl text-gray-500 md:py-6 py-6 dark:text-white">Tanpa ribet, proses cepat dan mudah, hanya dalam beberapa menit.</p>
         <div className="py-2">
-          <Link href="/pelayanan/persurat" className="relative border-2 border-gray-800 bg-transparent px-5 py-2.5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-600 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+          <Link href="/pelayanan/persurat" className=" border-2 border-gray-800 bg-blue-500 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">
             Daftar Sekarang <MdKeyboardArrowRight size="1.5rem" className="inline-block vertical-align:middle"/>
           </Link>
         </div>

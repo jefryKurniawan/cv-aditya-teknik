@@ -6,19 +6,14 @@ import Navbar from "@/components/Navbar";
 export const metadata: Metadata = {
   title: "SLO NIDI Malang",
   description: "CV.Aditya Teknik",
-  icons: {
-    icon: [
-      { 
-        url:'/assets/favicon.png', 
-        href: '/assets/favicon.png', 
-      }
-    ]
-  }
 };
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="id">
+      <head>
+        <link rel="icon" href="/assets/logo/favicon.ico" sizes="any" />
+      </head>
       <body>
         <Navbar/>
         <main className="flex-1">{children}</main>

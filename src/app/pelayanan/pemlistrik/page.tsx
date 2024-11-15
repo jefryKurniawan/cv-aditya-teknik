@@ -36,7 +36,7 @@ export default function Pemlistrik () {
       </section>
       <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 py-12 px-9" role="alert">
         <strong >Peringatan</strong>
-        <p>Jangan biarkan masalah listrik mengganggu aktivitas Anda. Hubungi kami untuk mendapatkan layanan perbaikan listrik korsleting yang profesional.<Link href="/hubkami" className="text-blue-700 hover:text-blue-900">Konsultasi</Link></p>
+        <p>Jangan biarkan masalah listrik mengganggu aktivitas Anda. Hubungi kami untuk mendapatkan layanan perbaikan listrik korsleting yang profesional.<Link href="/hubkami" className="text-blue-700 hover:text-blue-500"> Konsultasi</Link></p>
       </div>
     </div>
   )

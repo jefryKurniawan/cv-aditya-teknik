@@ -5,12 +5,14 @@ import Layanan from './Layanan';
 import Rules from './Rules';
 import NidiSlo from './NidiSlo';
 // import Pelanggan from './Pelanggan';
+import Klien from './Klien'
 
 export default function Beranda () {
   return (
     <div className='w-full h-full'>
       <Hero/>
       {/* <Pelanggan /> */}
+      <Klien/>
       <NidiSlo />
       <Layanan />
       <div className='lg:py-28 lg:px-20 dark:bg-blue-800'>

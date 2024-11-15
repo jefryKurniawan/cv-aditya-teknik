@@ -80,7 +80,7 @@ export default function Informasi () {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-800 pb-4 dark:text-white">Hubungi Kami</h2>
           <p className="text-lg text-gray-600 py-8 dark:text-white">Silakan hubungi kami jika Anda memiliki pertanyaan atau ingin mengetahui lebih lanjut tentang layanan kami.</p>
-          <Link className="bg-blue-500 uppercase hover:bg-blue-700 text-black hover:text-white font-bold py-2 px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4" href="/hubkami"
+          <Link className="bg-blue-500 border-2 border-grey-800 uppercase hover:bg-blue-700 text-black hover:text-white font-bold py-3 px-6 w-full md:w-1/2 lg:w-1/3 xl:w-1/4" href="/hubkami"
           >Konsultasi <MdOutlineSupportAgent size={"2.5rem"} className="pl-2 inline-block vertical-align:middle"/></Link>
         </div>
       </div>
