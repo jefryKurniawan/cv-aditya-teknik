@@ -43,7 +43,7 @@ export default function Hubkami () {
                     <h3 className="py-2 text-lg font-semibold text-blue-900 dark:text-white">Jam Operasional :</h3>
                     {/* offine */}
                     <div className="py-2 text-center ">
-                      <p className="text-xl text-blue-800 dark:text-white">Offine :</p>
+                      <p className="text-xl text-blue-800 dark:text-white">Offline :</p>
                       <ul className="pb-4 dark:text-white">
                         <li >Senin - Jumat : 08:00 - 17:00</li>
                         <li >Sabtu : 08:00 - 17:00</li>
