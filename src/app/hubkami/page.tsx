@@ -63,10 +63,13 @@ export default function Hubkami () {
                     <h3 className="text-lg font-semibold text-blue-900 dark:text-white">Kontak :</h3>
                     <div className="text-center pt-2">
                       <Link href="mailto:buchorimakmur8@gmail.com" className="inline-block mx-2 text-4xl text-red-500 dark:text-white">
-                        <MdEmail />
+                        <MdEmail size="3rem"/>
                       </Link>
                       <Link href="https://wa.me/+6281456123367" className="inline-block mx-2 text-4xl text-green-500 dark:text-white">
-                        <FaWhatsappSquare />
+                        <FaWhatsappSquare size="3rem" />
+                      </Link>
+                      <Link href="https://shopee.co.id/product/157115582/27067418869?d_id=8c11c&uls_trackid=518u4fkd0052&utm_content=2cGSzq8w9pDmgAfZKpEeqc8RqnCF" className="inline-block mx-2 text-4xl text-green-500 dark:text-white">
+                        <Image src={"/assets/etc/shopee.svg"} alt={"shopeeNidiSlo"} width={50} height={50}></Image>
                       </Link>
                     </div>
                   </div>
