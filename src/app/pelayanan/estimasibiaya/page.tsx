@@ -30,7 +30,7 @@ export default function EstimasiBiaya () {
     { daya: 131000, nidi: "Rp 1,965,000", slo: "Rp 1,965,000",  total: "Rp 3,330,000" },
     { daya: 147000, nidi: "Rp 2,205,000", slo: "Rp 2,205,000", total: "Rp 3,700,000" },
     { daya: 164000,nidi: "Rp 2,460,000", slo: "Rp 2,460,000", total: "Rp 4,150,000" },
-    { daya: 197000, nidi: "Rp 2,955,000", slo: "Rp 2,955,000", total: "Rp 14,755,000" },
+    { daya: 197000, nidi: "Rp 2,955,000", slo: "Rp 2,955,000", total: "Rp 5,000,000" },
   ];
 
   return (
