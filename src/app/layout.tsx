@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "SLO NIDI Malang Jawa Timur",
+  title: "SLO NIDI Malang",
   description: "CV.Aditya Teknik",
   icons: {
     icon: "/favicon.ico",
