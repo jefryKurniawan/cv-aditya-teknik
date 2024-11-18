@@ -4,17 +4,16 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "SLO NIDI Malang",
+  title: "SLO NIDI Malang Jawa Timur",
   description: "CV.Aditya Teknik",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="id">
-      <head>
-        {/* <link rel="icon" href="/assets/logo/favicon.ico" sizes="any" /> */}
-        <link rel="icon" href="/assets/logo/favicon.ico"/>
-      </head>
       <body>
         <Navbar/>
         <main className="flex-1">{children}</main>
