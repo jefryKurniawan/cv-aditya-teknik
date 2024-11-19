@@ -30,7 +30,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
     <html lang="id">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" href="/assets/logo/logo-cv" sizes="48x48" />
+        <link rel="icon" type="image/png" href="/assets/logo/logo-cv.png" sizes="48x48" />
       </head>
       <body>
         <Navbar/>
