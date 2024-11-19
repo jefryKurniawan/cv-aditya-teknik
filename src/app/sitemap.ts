@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://www.adytia-tehnik.com/pelayanan/persurat',
+      url: 'https://www.adytia-tehnik.com/pelayanan/nidi-slo',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

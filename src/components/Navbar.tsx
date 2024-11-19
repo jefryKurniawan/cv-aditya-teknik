@@ -51,7 +51,7 @@ export default function Navbar () {
                     <div className="absolute top-full left-0 bg-white dark:bg-gray-800 shadow-md rounded-md w-full">
                       <ul>
                         <li>
-                          <Link href="/pelayanan/persurat" className="block px-4 py-2 text-gray-600 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md" onClick={handleClose}>NIDI & SLO</Link>
+                          <Link href="/pelayanan/nidi-slo" className="block px-4 py-2 text-gray-600 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md" onClick={handleClose}>NIDI & SLO</Link>
                         </li>
                         <li>
                           <Link href="/pelayanan/pemlistrik" className="block px-4 py-2 text-gray-600 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md"  onClick={handleClose} >Pemasangan Listrik</Link>
@@ -112,7 +112,7 @@ export default function Navbar () {
                   <div className="absolute z-50 left-0 bg-white dark:bg-gray-800 shadow-md rounded-md w-full flex justify-center">
                     <ul className='w-full'>
                       <li className='w-full'>
-                        <Link href="/pelayanan/persurat"className="block w-full px-4 text-lg py-2 text-gray-600 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md" onClick={handleClose}>NIDI & SLO</Link>
+                        <Link href="/pelayanan/nidi-slo"className="block w-full px-4 text-lg py-2 text-gray-600 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md" onClick={handleClose}>NIDI & SLO</Link>
                       </li>
                       <li className='w-full'>
                         <Link href="/pelayanan/pemlistrik"className="block w-full px-4 text-lg py-2 text-gray-600 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md" onClick={handleClose}>Pemasangan Listrik</Link>

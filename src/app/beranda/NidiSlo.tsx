@@ -36,7 +36,7 @@ export default function NidiSlo () {
               
             </div>
             <div className="py-2">
-              <Link href={"/pelayanan/persurat"} className="border-2 border-gray-800 bg-blue-500 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">
+              <Link href={"/pelayanan/nidi-slo"} className="border-2 border-gray-800 bg-blue-500 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">
                 Daftar NIDI SLO Sekarang <MdKeyboardArrowRight size="1.5rem" className="inline-block vertical-align:middle"/>
               </Link>
             </div>

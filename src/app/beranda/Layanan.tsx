@@ -35,7 +35,7 @@ export default function Layanan () {
           description="Pengakuan resmi kemampuan Anda dalam bidang pendidikan dan pelatihan. Dapatkan sertifikat yang diakui secara nasional dan internasional."
           icon={<PiCertificateDuotone size="5rem" className="text-[#fcfcfc]"/>}
           button={
-            <Link href="/pelayanan/persurat">
+            <Link href="/pelayanan/nidi-slo">
                 Daftar Sekarang <RiLoginCircleFill size="1.5rem" className="inline-block vertical-align:middle"/>
             </Link>
           }

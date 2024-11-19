@@ -10,7 +10,7 @@ export default function Hero () {
         <h1 className='text-4xl py-4 font-extrabold text-left text-blue-800 dark:text-white'>Nidi SLO Indonesia - Jasa Sertifikat Laik Operasi Terpercaya</h1>
         <p className="text-xl text-gray-500 md:py-6 py-6 dark:text-white">CV. Aditya Teknik adalah mitra terpercaya untuk layanan Sertifikat Laik Operasi (SLO) di seluruh Indonesia. Kami memberikan solusi cepat, profesional, dan dengan biaya yang kompetitif. Dapatkan sertifikasi listrik Anda sekarang!</p>
         <div className="py-2">
-          <Link href="/pelayanan/persurat" className=" border-2 border-gray-800 bg-blue-500 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">
+          <Link href="/pelayanan/nidi-slo" className=" border-2 border-gray-800 bg-blue-500 px-5 py-2.5 font-medium uppercase text-white hover:bg-blue-900">
             Daftar Sekarang <MdKeyboardArrowRight size="1.5rem" className="inline-block vertical-align:middle"/>
           </Link>
         </div>

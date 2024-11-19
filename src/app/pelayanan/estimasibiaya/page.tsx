@@ -74,7 +74,7 @@ export default function EstimasiBiaya () {
         </div>
 
         <section className="py-14 shadow-lg lg:mx-10 bg-blue-100 border-l-4 border-blue-900 text-blue-900 p-4 sm:px-8" role="alert">
-          <p className="text-lg font-medium">Harga kami negotable dan sesuai kebutuhan pelanggan dengan mengkonsultasikan <Link href="/pelayanan/estimasibiaya" className="text-yellow-500 hover:text-yellow-600">kepada kami</Link></p>
+          <p className="text-lg font-medium">Harga kami negotable dan sesuai kebutuhan pelanggan dengan mengkonsultasikan <Link href="/hubkami" className="text-yellow-500 hover:text-yellow-600">kepada kami</Link></p>
         </section>
       </div>
     </div>
