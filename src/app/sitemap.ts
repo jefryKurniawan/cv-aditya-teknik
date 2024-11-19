@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseDomain = 'http://adytia-tehnik.com';
+  const baseDomain = 'https://www.adytia-tehnik.com/';
 
   const routes = [
     '/',
@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapEntries = routes.map((path) => ({
     url: `${baseDomain}${path}`,
     lastModified: new Date(),
+    priority: path === "/" ? 1.0 : 0.8,
     alternates: {
       languages: {
         id: `${baseDomain}${path}`

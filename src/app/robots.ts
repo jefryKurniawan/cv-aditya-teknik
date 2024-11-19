@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'http://adytia-tehnik.com/sitemap.xml',
-    host: 'http://adytia-tehnik.com',
+    sitemap: 'https://www.adytia-tehnik.com/sitemap.xml',
+    host: 'https://www.adytia-tehnik.com',
   };
 }

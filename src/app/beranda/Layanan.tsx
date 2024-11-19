@@ -31,7 +31,7 @@ export default function Layanan () {
         
         <Card1
           className="backdrop-blur-xl bg-yellow-400/30 my-auto"
-          heading="Sertifikat NIDI SLO"
+          heading=" Sertifikasi Listrik"
           description="Pengakuan resmi kemampuan Anda dalam bidang pendidikan dan pelatihan. Dapatkan sertifikat yang diakui secara nasional dan internasional."
           icon={<PiCertificateDuotone size="5rem" className="text-[#fcfcfc]"/>}
           button={
@@ -67,7 +67,7 @@ export default function Layanan () {
         <Card1
           className="backdrop-blur-xl bg-white/30 my-auto"
           heading="Perawatan"
-          description="Perawatan Rutin listrik untuk daerah kota Batu Malang Dan sekitarnya, Kami memiliki tukang listrik yang handal dan profesional."
+          description="Perawatan dan pemeliharaan sistem listrik Anda sesuai standar SNI."
           icon={<GrHostMaintenance size="4rem" className="text-[#7845f8]" />}
           button={
             <Link href="/pelayanan/perawatan">
