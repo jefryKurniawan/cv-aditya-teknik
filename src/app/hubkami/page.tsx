@@ -69,7 +69,7 @@ export default function Hubkami () {
                         <FaWhatsappSquare size="3rem" />
                       </Link>
                       <Link href="https://shopee.co.id/product/157115582/27067418869?d_id=8c11c&uls_trackid=518u4fkd0052&utm_content=2cGSzq8w9pDmgAfZKpEeqc8RqnCF" className="inline-block mx-2 text-4xl text-green-500 dark:text-white">
-                        <Image src={"/assets/etc/shopee.svg"} alt={"shopeeNidiSlo"} width={50} height={50}></Image>
+                        <Image src={"/assets/etc/shopee.svg"} alt={"shopeeNidiSlo"} width={50} height={50} loading='lazy'/>
                       </Link>
                     </div>
                   </div>

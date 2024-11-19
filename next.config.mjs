@@ -1,13 +1,19 @@
 /** @type {import('next').NextConfig} */
-// const nextConfig = {};
 
 const nextConfig = {
     reactStrictMode: true,
+    images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'www.adytia-tehnik.com',
+            port: '',
+            pathname: '/*',
+          },
+        ],
+        minimumCacheTTL: 60,
+    },
 };
 
-
-// module.exports ={
-//     port: 3000;,
-// }
 
 export default nextConfig;

@@ -17,7 +17,7 @@ export default function Hero () {
       </div>
 
       <div className="pb-8 overflow-hidden">
-        <Image id="heroImg" className="w-full md:mx-auto sm:mx-auto select-none pointer-events-none" src={'/assets/slo.png'} alt="Jasa Nidi SLO" width={300} height={300}/>
+        <Image id="heroImg" className="w-full md:mx-auto sm:mx-auto select-none pointer-events-none" src={'/assets/slo.png'} alt="Jasa Nidi SLO" width={300} height={300} loading='lazy'/>
       </div>
     </div>
   );

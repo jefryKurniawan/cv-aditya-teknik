@@ -25,7 +25,7 @@ export default function Konsul () {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center p-8 bg-gray-100 dark:bg-blue-900">
       <div className="w-full lg:w-1/2 flex justify-center py-8 lg:mb-0">
-        <Image src={"/assets/konsul.svg"} alt="Konsultasi" width={250} height={250} className="transition-all duration-300 ease-in-out w-1/2 hover:scale-105 shadow-lg max-w-full h-auto"/>
+        <Image src={"/assets/konsul.svg"} alt="Konsultasi" width={250} height={250} className="transition-all duration-300 ease-in-out w-1/2 hover:scale-105 shadow-lg max-w-full h-auto" loading='lazy'/>
       </div>
       <div className="w-full lg:w-1/2 bg-white dark:bg-blue-800 rounded-md shadow-lg p-8 md:p-14">
         <h2 className="text-2xl font-bold py-4 text-center text-gray-800 dark:text-gray-100">Konsultasi</h2>

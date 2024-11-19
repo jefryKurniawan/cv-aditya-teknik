@@ -5,7 +5,7 @@ export default function Perawatan () {
   return (
   <div className="mx-auto py-10 border border-gray-300 shadow-md dark:bg-blue-500">
     <h1 className="text-3xl font-bold pb-4 text-center text-blue-900 dark:text-white">Perawatan Listrik</h1>
-    <Image src={"/assets/pemasangan.svg"} alt="Pemasangan Listrik"width={250} height={250} className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-1/4 lg:h-1/4 mx-auto sm:h-1/4 py-8 sm:pb-10 lg:py-2 "/>
+    <Image src={"/assets/pemasangan.svg"} alt="Pemasangan Listrik"width={250} height={250} className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-1/4 lg:h-1/4 mx-auto sm:h-1/4 py-8 sm:pb-10 lg:py-2" loading='lazy'/>
     <section className="p-2 mx-auto py-20 bg-blue-300">
       <p className="text-justify mx-10 indent-10 text-lg"> CV Aditya Teknik, penyedia jasa perawatan dan maintenance listrik yang berpusat di Malang, melayani seluruh wilayah Jawa Timur dan daerah perbatasan. Dengan tim teknisi listrik profesional dan berpengalaman, kami memastikan instalasi listrik anda aman, efisien, dan sesuai standar. Layanan perawatan rutin kami membantu mencegah kerusakan, meningkatkan usia peralatan, dan menjaga stabilitas sistem kelistrikan rumah maupun bisnis anda. </p>
     </section>

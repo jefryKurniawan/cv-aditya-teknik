@@ -31,7 +31,7 @@ export default function NidiSlo () {
               <h2 className="text-2xl font-bold mb-4 lg:align-top text-center">Sertifikat Laik Operasi (SLO)</h2>
               <p className="text-lg leading-relaxed mb-4">CV. Aditya Teknik adalah penyedia layanan Sertifikat Laik Operasi (SLO) terkemuka di Indonesia. Kami melayani berbagai jenis instalasi listrik dengan standar nasional.</p>
               <div className="flex justify-center">
-                <Image src={"/assets/sertifikat-nidi-slo.png"} alt="Nidi SLO Indonesia - Sertifikat Laik Operasi" width={150} height={150} className="w-2/3 " />
+                <Image src={"/assets/sertifikat-nidi-slo.png"} alt="Nidi SLO Indonesia - Sertifikat Laik Operasi" width={150} height={150} className="w-2/3 loading='lazy'" />
               </div>
               
             </div>
