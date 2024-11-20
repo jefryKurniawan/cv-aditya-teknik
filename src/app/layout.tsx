@@ -30,10 +30,10 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
     <html lang="id">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="icon" type="image/png" href="/assets/logo/logo-cv.png" sizes="48x48" /> */}
+        <link rel="icon" type="image/png" href="/assets/logo/nidi-slo.png" sizes="48x48" />
       </head>
       <body>
-        <Navbar/>apala
+        <Navbar/>
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
