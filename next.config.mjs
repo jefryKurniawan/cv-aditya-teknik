@@ -3,15 +3,16 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: 'www.adytia-tehnik.com',
-            port: '',
-            pathname: '/*',
-          },
-        ],
-        minimumCacheTTL: 60,
+      domains: ['www.adytia-tehnik.com'],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'www.adytia-tehnik.com',
+          port: '',
+          pathname: '/*',
+        },
+      ],
+      minimumCacheTTL: 60,
     },
 };
 

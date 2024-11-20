@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "CV. Aditya Teknik menyediakan layanan Nidi SLO di seluruh Indonesia. Sertifikat Laik Operasi (SLO) dengan proses cepat, mudah, dan terpercaya. Hubungi kami sekarang!",
     images: [
       {
-        url: "/assets/logo-cv.png",
+        url: "https://www.adytia-tehnik.com/assets/nidi-slo.png",
         width: 500,
         height: 500,
       },
@@ -30,10 +30,10 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
     <html lang="id">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" href="/assets/logo/logo-cv.png" sizes="48x48" />
+        {/* <link rel="icon" type="image/png" href="/assets/logo/logo-cv.png" sizes="48x48" /> */}
       </head>
       <body>
-        <Navbar/>
+        <Navbar/>apala
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
