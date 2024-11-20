@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "CV. Aditya Teknik menyediakan layanan Nidi SLO di seluruh Indonesia. Sertifikat Laik Operasi (SLO) dengan proses cepat, mudah, dan terpercaya. Hubungi kami sekarang!",
     images: [
       {
-        url: "https://www.adytia-tehnik.com/assets/nidi-slo.png",
+        url: "https://www.adytia-tehnik.com/assets/logo/nidi-slo.png",
         width: 1200,
         height: 630,
       },
